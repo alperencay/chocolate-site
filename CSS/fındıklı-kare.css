@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 5em;
+}
+
+.button-color {
+    background-color: #563017;
+    color: white;
+}
+
+.container-fluid {
+    background-color: #563017;
+    border-radius: 1em;
+}
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    width: 50em;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-fluid>ul>li {
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.container-fluidd {
+    width: 10em;
+}

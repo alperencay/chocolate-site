@@ -1,0 +1,52 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(../IMAGE/chocolate_chocolates_cocoa_185267_1920x1080.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 5em;
+}
+
+.button-color {
+    background-color: #563017;
+    color: white;
+}
+
+.container-fluid {
+    background-color: #563017;
+    border-radius: 1em;
+}
+
+.container-fluid>ul>li {
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.container-fluidd {
+    width: 10em;
+}
+
+.chocolate-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
